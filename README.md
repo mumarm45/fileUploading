@@ -26,7 +26,7 @@ when running the server from the command line,
 
 Property | Default | Description
 ---------|---------|-------------
-fineuploader.base-dir|./uploads|Root upload directory
+uploadFile.path|/upload-dir|Root upload directory
 server.port|8080|Listening port
 
 
@@ -35,7 +35,7 @@ application.yml
 spring.datasource.url= jdbc:mysql://localhost:3306/cust
 fileUpload.path=/upload-dir
 fileUpload.separator= ','
-server.port=9090
+server.port=8080
 spring.datasource.username: root
 spring.datasource.password: root
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver
