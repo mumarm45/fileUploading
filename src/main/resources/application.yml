@@ -1,0 +1,16 @@
+spring:
+ http:
+  multipart:
+    max-file-size: 10MB
+ jpa:
+  hibernate:
+   ddl-auto: update
+ datasource:
+  url: jdbc:mysql://localhost:3306/cust
+  username: root
+  password: root
+  driver-class-name: com.mysql.jdbc.Driver
+
+fileUpload:
+  path: /upload-dir
+  separator: ','
