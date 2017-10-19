@@ -26,11 +26,8 @@ when running the server from the command line,
 
 Property | Default | Description
 ---------|---------|-------------
-<<<<<<< HEAD
-fineuploader.base-dir|./uploads|Root upload directory
-=======
 uploadFile.path|/upload-dir|Root upload directory
->>>>>>> e70a026400720056b271ae73dfd69425f0f9eb19
+
 server.port|8080|Listening port
 
 
@@ -39,11 +36,7 @@ application.yml
 spring.datasource.url= jdbc:mysql://localhost:3306/cust
 fileUpload.path=/upload-dir
 fileUpload.separator= ','
-<<<<<<< HEAD
-server.port=9090
-=======
 server.port=8080
->>>>>>> e70a026400720056b271ae73dfd69425f0f9eb19
 spring.datasource.username: root
 spring.datasource.password: root
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver
@@ -60,8 +53,3 @@ Method | Endpoint | Usage
 POST|/deal|Upload file end point.  Make multipartfile request in file elemet.
 
 
-<<<<<<< HEAD
-project is licensed under the terms of the MIT license.
-=======
-project is licensed under the terms of the MIT license.
->>>>>>> e70a026400720056b271ae73dfd69425f0f9eb19
